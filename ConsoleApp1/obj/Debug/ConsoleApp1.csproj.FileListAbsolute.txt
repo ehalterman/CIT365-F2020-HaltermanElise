@@ -1,6 +1,0 @@
-C:\Users\Elise\Source\Repos\ehalterman\CIT365-F2020-HaltermanElise\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-C:\Users\Elise\Source\Repos\ehalterman\CIT365-F2020-HaltermanElise\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\Users\Elise\Source\Repos\ehalterman\CIT365-F2020-HaltermanElise\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\Users\Elise\Source\Repos\ehalterman\CIT365-F2020-HaltermanElise\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-C:\Users\Elise\Source\Repos\ehalterman\CIT365-F2020-HaltermanElise\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\Users\Elise\Source\Repos\ehalterman\CIT365-F2020-HaltermanElise\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
