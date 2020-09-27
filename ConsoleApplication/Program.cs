@@ -7,16 +7,20 @@ namespace ConsoleApplication
     {
         static void Main()
         {
-            double width, height, woodLength, glassArea;
-            string name, location, widthString, heightString;
-            //Console.WriteLine("Please enter your name:");
 
-            name = "Elise";
-            //Console.WriteLine("Please enter your location:");
+            string name, location;
+            Console.WriteLine("Please enter your name:");
 
-            location = "Utah";
+            name = Console.ReadLine();
+            Console.WriteLine("Please enter your location:");
+
+            location = Console.ReadLine();
             Console.WriteLine($"My name is {name}.");
             Console.WriteLine($"I am from {location}.");
+
+            Console.WriteLine("Press any key to continue.");
+            Console.ReadKey();
+
             DateTime thisDay = DateTime.Today;
             Console.WriteLine(thisDay.ToString("d"));
 
@@ -25,6 +29,19 @@ namespace ConsoleApplication
             TimeSpan advent = endTime - startTime;
             Console.WriteLine($"There are {advent.Days} days until Christmas");
 
+            Console.WriteLine("Press any key to continue.");
+            Console.ReadKey();
+
+            GlazerApp();
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+
+        }
+        static void GlazerApp()
+        {
+            double width, height, woodLength, glassArea;
+            string widthString, heightString;
             Console.WriteLine("Please enter the window width:");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
@@ -40,8 +57,7 @@ namespace ConsoleApplication
             Console.WriteLine($"The length of the wood is {woodLength} feet.");
             Console.WriteLine($"The area of the glass is {glassArea} square metres.");
 
-            Console.ReadKey();
-
         }
+
     }
 }
