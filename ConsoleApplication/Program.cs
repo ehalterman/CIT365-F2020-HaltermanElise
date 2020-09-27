@@ -42,6 +42,7 @@ namespace ConsoleApplication
         {
             double width, height, woodLength, glassArea;
             string widthString, heightString;
+
             Console.WriteLine("Please enter the window width:");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
@@ -56,7 +57,6 @@ namespace ConsoleApplication
 
             Console.WriteLine($"The length of the wood is {woodLength} feet.");
             Console.WriteLine($"The area of the glass is {glassArea} square metres.");
-
         }
 
     }
